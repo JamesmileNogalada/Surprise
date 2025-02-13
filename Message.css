@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #fbe3e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  
+  .card {
+    width: 700px; 
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(255, 20, 147, 0.5); 
+    position: relative;
+    text-align: center;
+    background: #fff5f8;
+    max-height: 85vh; 
+    overflow-y: auto; 
+  }
+  
+  
+  .header {
+    font-size: 25px; 
+    color: #ff1493;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .letter_paragraph {
+    font-size: 15px; 
+    line-height: 1.4;
+    color: #a60657;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .next_page_button {
+    display: inline-block;
+    background-color: #FF1493; 
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none; 
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  .next_page_button:hover {
+    background-color: #ff69b4; 
+    cursor: pointer;
+}
+
+.next_page_button:active {
+    background-color: #ff1493; 
+}
+p {
+  background-image: url('sunflower.jpg');
+  background-size: cover; 
+  background-position: center; 
+  padding: 20px; 
+}
